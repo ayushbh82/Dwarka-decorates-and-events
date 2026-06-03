@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-royal-purple: #6A0DAD;
+  --color-luxury-gold: #FFD700;
+  --color-royal-gold: #D4AF37;
+  --color-coral-orange: #FF6B35;
+  --color-teal-accent: #00BFA6;
+  --color-dark-charcoal: #1A1A1A;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-display: "Outfit", sans-serif;
+}
+
+/* Extra utility classes for custom styling elements */
+.ambient-glow {
+  box-shadow: 0 0 40px -10px rgba(106, 13, 173, 0.15);
+}
+
+.gold-border-glow:hover {
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+}
+
+/* Professional Polish theme classes */
+.font-playfair {
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+.font-inter {
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+.gold-text {
+  color: #FFD700;
+}
+
+.purple-bg {
+  background-color: #6A0DAD;
+}
+
+.coral-accent {
+  background-color: #FF6B35;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.11);
+}
+
+.dark .glass {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-light {
+  background: rgba(26, 26, 26, 0.03);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(26, 26, 26, 0.08);
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  background: rgba(106, 13, 173, 0.12);
+  border-color: #FFD700;
+}
+
+.stat-border {
+  border-right: 1px solid rgba(255, 215, 0, 0.25);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #1A1A1A;
+}
+::-webkit-scrollbar-thumb {
+  background: #6A0DAD;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FFD700;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "Dwarka Events",
+  "description": "Premium, modern, and professional event planning and management services in Delhi NCR since 2001.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
